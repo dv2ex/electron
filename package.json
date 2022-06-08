@@ -1,0 +1,20 @@
+{
+  "name": "@dv2ex/electron",
+  "version": "0.0.1",
+  "description": "dv2ex electron binding",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --config electron-builder.config.js --config.asar=true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dv2ex": "^0.0.7"
+  },
+  "devDependencies": {
+    "electron": "^19.0.3",
+    "electron-builder": "^23.0.3"
+  }
+}
